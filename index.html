@@ -22,30 +22,33 @@
 	    
 	    
 	    
-	    
-	    <style>
-.alert {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
+	<style>
+div {
+  margin-bottom: 15px;
+  padding: 4px 12px;
 }
 
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
 }
 
-.closebtn:hover {
-  color: black;
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #4CAF50;
+}
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
 }
 </style>
-	    
 	    
 	    
 	    
@@ -57,10 +60,11 @@
 
     <body>
 
-<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  <strong>ATENTIE!</strong> Site-ul este in lucru. Vor fi adaugate in scurt timp mai multe detalii.
-</div>
+
+	    
+<div class="danger">
+  <p><strong>ATENTIE!</strong> Site-ul este in lucru. Vor fi adaugate in scurt timp mai multe detalii.</p>
+</div>	    
 
     <!-- Header -->
     <header class="align--center pt3">
